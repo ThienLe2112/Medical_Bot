@@ -1,0 +1,6 @@
+[console_scripts]
+keyboard = arm_bot.pub_key:main
+my_node = arm_bot.my_node:main
+sens_info = arm_bot.sub_sensinfo:main
+sensors = arm_bot.pub_sens:main
+

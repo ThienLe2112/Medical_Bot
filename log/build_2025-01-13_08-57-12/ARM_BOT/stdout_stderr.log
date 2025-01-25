@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/ARM_BOT/ARM_BOT.egg-info
+writing ../../build/ARM_BOT/ARM_BOT.egg-info/PKG-INFO
+writing dependency_links to ../../build/ARM_BOT/ARM_BOT.egg-info/dependency_links.txt
+writing entry points to ../../build/ARM_BOT/ARM_BOT.egg-info/entry_points.txt
+writing requirements to ../../build/ARM_BOT/ARM_BOT.egg-info/requires.txt
+writing top-level names to ../../build/ARM_BOT/ARM_BOT.egg-info/top_level.txt
+writing manifest file '../../build/ARM_BOT/ARM_BOT.egg-info/SOURCES.txt'
+reading manifest file '../../build/ARM_BOT/ARM_BOT.egg-info/SOURCES.txt'
+writing manifest file '../../build/ARM_BOT/ARM_BOT.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dog/ros2_ws/build/ARM_BOT/build
+creating /home/dog/ros2_ws/build/ARM_BOT/build/lib
+creating /home/dog/ros2_ws/build/ARM_BOT/build/lib/ARM_BOT
+copying ARM_BOT/__init__.py -> /home/dog/ros2_ws/build/ARM_BOT/build/lib/ARM_BOT
+running install
+running install_lib
+creating /home/dog/ros2_ws/install/ARM_BOT/lib/python3.8/site-packages/ARM_BOT
+copying /home/dog/ros2_ws/build/ARM_BOT/build/lib/ARM_BOT/__init__.py -> /home/dog/ros2_ws/install/ARM_BOT/lib/python3.8/site-packages/ARM_BOT
+byte-compiling /home/dog/ros2_ws/install/ARM_BOT/lib/python3.8/site-packages/ARM_BOT/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/dog/ros2_ws/install/ARM_BOT/share/ament_index
+creating /home/dog/ros2_ws/install/ARM_BOT/share/ament_index/resource_index
+creating /home/dog/ros2_ws/install/ARM_BOT/share/ament_index/resource_index/packages
+copying resource/ARM_BOT -> /home/dog/ros2_ws/install/ARM_BOT/share/ament_index/resource_index/packages
+copying package.xml -> /home/dog/ros2_ws/install/ARM_BOT/share/ARM_BOT
+running install_egg_info
+Copying ../../build/ARM_BOT/ARM_BOT.egg-info to /home/dog/ros2_ws/install/ARM_BOT/lib/python3.8/site-packages/ARM_BOT-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/dog/ros2_ws/build/ARM_BOT/install.log'

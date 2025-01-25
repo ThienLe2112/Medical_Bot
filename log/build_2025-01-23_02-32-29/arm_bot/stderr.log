@@ -1,0 +1,5 @@
+  File "/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/mpu.py", line 4
+    import
+          ^
+SyntaxError: invalid syntax
+

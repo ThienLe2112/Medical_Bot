@@ -1,0 +1,27 @@
+[7.143s] Invoking command in '/home/dog/ros2_ws/src/arm_bot': PYTHONPATH=/home/dog/ros2_ws/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/dog/ros2_ws/build/arm_bot/build install --record /home/dog/ros2_ws/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data
+[9.637s] running egg_info
+[9.645s] writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO
+[9.648s] writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt
+[9.650s] writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt
+[9.651s] writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt
+[9.653s] writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt
+[10.023s] reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[10.033s] writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[10.035s] running build
+[10.036s] running build_py
+[10.037s] copying arm_bot/mpu.py -> /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot
+[10.044s] running install
+[10.052s] running install_lib
+[10.061s] copying /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot/mpu.py -> /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[10.071s] byte-compiling /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/mpu.py to mpu.cpython-38.pyc
+[10.090s] running install_data
+[10.091s] running install_egg_info
+[10.106s] removing '/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)
+[10.109s] Copying ../../build/arm_bot/arm_bot.egg-info to /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info
+[10.120s] running install_scripts
+[10.287s] Installing keyboard script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+[10.289s] Installing my_node script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+[10.291s] Installing sens_info script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+[10.293s] Installing sensors script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+[10.298s] writing list of installed files to '/home/dog/ros2_ws/build/arm_bot/install.log'
+[10.515s] Invoked command in '/home/dog/ros2_ws/src/arm_bot' returned '0': PYTHONPATH=/home/dog/ros2_ws/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/dog/ros2_ws/build/arm_bot/build install --record /home/dog/ros2_ws/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data
