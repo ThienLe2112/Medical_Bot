@@ -66,6 +66,7 @@ class SensInfoSubscriber(Node):
                 AR1 = data["sensors"]["MPU1"]["Angle_Roll"]
                 AP1 = data["sensors"]["MPU1"]["Angle_Pitch"]
                 RY1 = data["sensors"]["MPU1"]["Rate_Yaw"]
+                grip = data["sensors"]["LC"]["force"]
 
                 self.control["P0"]
                 if RY1 > 4 or RY1 < -4:
@@ -75,7 +76,7 @@ class SensInfoSubscriber(Node):
                 if self.control["P3"] < 0:
                     self.control["P2"] = 1500 + self.control["P3"]
                 self.control["P4"] = 2500*(+AR1+90)/(90 + 90)
-                self.control["P5"] = 1500# 1300 + int(955*grip/0.5)*1.2
+                self.control["P5"] = 1300 + int(955*grip/0.2)*1.2
 
                 self.control["P0"] = sorted((500, self.control["P0"], 2300))[1]
                 self.control["P1"] = sorted((200, self.control["P1"], 1500))[1]
