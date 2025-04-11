@@ -1,0 +1,33 @@
+running egg_info
+writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO
+writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt
+writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt
+writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt
+writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt
+reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying arm_bot/sub_servoes.py -> /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot
+copying arm_bot/sub_sensinfo.py -> /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot
+copying arm_bot/pub_key.py -> /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot
+running install
+running install_lib
+copying /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot/sub_servoes.py -> /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot
+copying /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot/sub_sensinfo.py -> /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot
+copying /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot/pub_key.py -> /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot
+byte-compiling /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc
+byte-compiling /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (sub_sensinfo.py, line 26)
+byte-compiling /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub_key.py to pub_key.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)
+Copying ../../build/arm_bot/arm_bot.egg-info to /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info
+running install_scripts
+Installing keyboard script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+Installing my_node script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+Installing sens_info script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+Installing sensors script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+Installing servoes script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot
+writing list of installed files to '/home/dog/ros2_ws/build/arm_bot/install.log'

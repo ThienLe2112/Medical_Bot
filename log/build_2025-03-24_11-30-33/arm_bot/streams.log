@@ -1,0 +1,59 @@
+[3.055s] Invoking command in '/home/jetson/Desktop/ros2_ws1/src/arm_bot': PYTHONPATH=/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/jetson/Desktop/ros2_ws1/build/arm_bot/build install --record /home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data
+[4.128s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.130s]   warnings.warn(
+[4.252s] running egg_info
+[4.254s] creating ../../build/arm_bot/arm_bot.egg-info
+[4.254s] writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO
+[4.255s] writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt
+[4.256s] writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt
+[4.256s] writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt
+[4.256s] writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt
+[4.261s] writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[4.268s] reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[4.271s] writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[4.272s] running build
+[4.273s] running build_py
+[4.273s] creating /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.274s] copying arm_bot/sub_sensinfo.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.274s] copying arm_bot/pub_key.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.275s] copying arm_bot/pub.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.275s] copying arm_bot/my_node.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.275s] copying arm_bot/mpu.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.276s] copying arm_bot/sub.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.276s] copying arm_bot/__init__.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.277s] copying arm_bot/pub_sens.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.277s] copying arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.277s] running install
+[4.280s] running install_lib
+[4.284s] creating /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.284s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_sensinfo.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.285s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/pub_key.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.285s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/pub.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.286s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/my_node.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.286s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/mpu.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.286s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.287s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/__init__.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.287s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/pub_sens.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.288s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.289s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc
+[4.292s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub_key.py to pub_key.cpython-38.pyc
+[4.293s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub.py to pub.cpython-38.pyc
+[4.294s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/my_node.py to my_node.cpython-38.pyc
+[4.295s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/mpu.py to mpu.cpython-38.pyc
+[4.297s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub.py to sub.cpython-38.pyc
+[4.298s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/__init__.py to __init__.cpython-38.pyc
+[4.299s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub_sens.py to pub_sens.cpython-38.pyc
+[4.300s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc
+[4.301s] running install_data
+[4.302s] copying resource/arm_bot -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/share/ament_index/resource_index/packages
+[4.302s] copying package.xml -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/share/arm_bot
+[4.302s] running install_egg_info
+[4.310s] Copying ../../build/arm_bot/arm_bot.egg-info to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info
+[4.313s] running install_scripts
+[4.383s] Installing keyboard script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.384s] Installing my_node script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.384s] Installing sens_info script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.385s] Installing sensors script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.385s] Installing servoes script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.386s] writing list of installed files to '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log'
+[4.490s] Invoked command in '/home/jetson/Desktop/ros2_ws1/src/arm_bot' returned '0': PYTHONPATH=/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/jetson/Desktop/ros2_ws1/build/arm_bot/build install --record /home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data

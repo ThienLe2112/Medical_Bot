@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/dog/ros2_ws/install/arm_bot'
+    sys.prefix = sys.exec_prefix = '/home/jetson/Desktop/ros2_ws1/install/arm_bot'

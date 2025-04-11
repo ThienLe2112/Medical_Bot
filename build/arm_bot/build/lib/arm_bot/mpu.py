@@ -61,7 +61,7 @@ class mpu6050():
 
         AngleRoll = math.atan(AccY/math.sqrt(math.pow(AccX,2) + math.pow(AccZ,2)))*1/(3.142/180)
         AnglePitch = math.atan(-AccX/math.sqrt(math.pow(AccY,2) + math.pow(AccZ,2)))*1/(3.142/180)
-        return AccX, AccY, AccZ, AngleRoll, AnglePitch
+        return AccX, AccY, AccZ, AngleRoll, AnglePitch, RateRoll, RatePitch, RateYaw
     
     
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
     bus.write_byte_data(DeviceAddress, 0x6B, 0x00)
 
     while True:
-        AccX, AccY, AccZ, AngleRoll, AnglePitch = gyro_signals()
+        AccX, AccY, AccZ, AngleRoll, AnglePitch, RateRoll, RatePitch, RateYaw = gyro_signals()
         # print("Acceleration X [g] = {%.2f}" % AccX, end='')
         # print("Acceleration Y [g] = {%.2f}" % AccY, end='')
         # print("Acceleration Z [g] = {%.2f}" % AccZ)

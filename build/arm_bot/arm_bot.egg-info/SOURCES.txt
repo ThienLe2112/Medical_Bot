@@ -9,6 +9,8 @@ setup.py
 ../../build/arm_bot/arm_bot.egg-info/top_level.txt
 ../../build/arm_bot/arm_bot.egg-info/zip-safe
 arm_bot/__init__.py
+arm_bot/arm.py
+arm_bot/load_cell.py
 arm_bot/mpu.py
 arm_bot/my_node.py
 arm_bot/pub.py
@@ -16,6 +18,7 @@ arm_bot/pub_key.py
 arm_bot/pub_sens.py
 arm_bot/sub.py
 arm_bot/sub_sensinfo.py
+arm_bot/sub_servoes.py
 resource/arm_bot
 test/test_copyright.py
 test/test_flake8.py

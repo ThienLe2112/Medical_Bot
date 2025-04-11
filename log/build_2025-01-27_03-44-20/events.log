@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.002008] (arm_bot) JobQueued: {'identifier': 'arm_bot', 'dependencies': OrderedDict()}
+[0.004114] (arm_bot) JobStarted: {'identifier': 'arm_bot'}
+[0.098549] (-) TimerEvent: {}
+[0.201067] (-) TimerEvent: {}
+[0.302635] (-) TimerEvent: {}
+[0.403834] (-) TimerEvent: {}
+[0.505148] (-) TimerEvent: {}
+[0.606476] (-) TimerEvent: {}
+[0.707651] (-) TimerEvent: {}
+[0.808817] (-) TimerEvent: {}
+[0.910034] (-) TimerEvent: {}
+[1.011220] (-) TimerEvent: {}
+[1.112421] (-) TimerEvent: {}
+[1.213678] (-) TimerEvent: {}
+[1.314912] (-) TimerEvent: {}
+[1.416125] (-) TimerEvent: {}
+[1.517307] (-) TimerEvent: {}
+[1.618552] (-) TimerEvent: {}
+[1.719695] (-) TimerEvent: {}
+[1.820822] (-) TimerEvent: {}
+[1.922053] (-) TimerEvent: {}
+[2.023466] (-) TimerEvent: {}
+[2.124756] (-) TimerEvent: {}
+[2.226076] (-) TimerEvent: {}
+[2.327344] (-) TimerEvent: {}
+[2.428631] (-) TimerEvent: {}
+[2.530160] (-) TimerEvent: {}
+[2.631629] (-) TimerEvent: {}
+[2.733103] (-) TimerEvent: {}
+[2.834494] (-) TimerEvent: {}
+[2.935643] (-) TimerEvent: {}
+[3.036857] (-) TimerEvent: {}
+[3.138075] (-) TimerEvent: {}
+[3.239274] (-) TimerEvent: {}
+[3.340424] (-) TimerEvent: {}
+[3.441615] (-) TimerEvent: {}
+[3.542814] (-) TimerEvent: {}
+[3.643981] (-) TimerEvent: {}
+[3.745213] (-) TimerEvent: {}
+[3.846482] (-) TimerEvent: {}
+[3.947700] (-) TimerEvent: {}
+[4.048994] (-) TimerEvent: {}
+[4.150200] (-) TimerEvent: {}
+[4.251431] (-) TimerEvent: {}
+[4.352607] (-) TimerEvent: {}
+[4.453846] (-) TimerEvent: {}
+[4.555078] (-) TimerEvent: {}
+[4.656394] (-) TimerEvent: {}
+[4.757812] (-) TimerEvent: {}
+[4.859091] (-) TimerEvent: {}
+[4.960281] (-) TimerEvent: {}
+[5.061486] (-) TimerEvent: {}
+[5.162661] (-) TimerEvent: {}
+[5.263856] (-) TimerEvent: {}
+[5.365164] (-) TimerEvent: {}
+[5.466563] (-) TimerEvent: {}
+[5.567706] (-) TimerEvent: {}
+[5.669031] (-) TimerEvent: {}
+[5.770564] (-) TimerEvent: {}
+[5.871759] (-) TimerEvent: {}
+[5.973062] (-) TimerEvent: {}
+[6.074453] (-) TimerEvent: {}
+[6.175644] (-) TimerEvent: {}
+[6.276823] (-) TimerEvent: {}
+[6.378071] (-) TimerEvent: {}
+[6.479449] (-) TimerEvent: {}
+[6.580865] (-) TimerEvent: {}
+[6.626025] (arm_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_bot', 'build', '--build-base', '/home/dog/ros2_ws/build/arm_bot/build', 'install', '--record', '/home/dog/ros2_ws/build/arm_bot/install.log', '--install-scripts', '$base/lib/arm_bot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dog/ros2_ws/src/arm_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dog', 'SSH_CLIENT': '192.168.137.1 54700 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/dog', 'OLDPWD': '/home/dog', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/dog/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'dog', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/dog/ros2_ws/install/arm_bot:/home/dog/ros2_ws/install/ARM_BOT:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/dog/ros2_ws/build/arm_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.137.1 54700 192.168.137.185 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dog/ros2_ws/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages:/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages:/home/dog/ros2_ws/install/ARM_BOT/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[6.681277] (-) TimerEvent: {}
+[6.782785] (-) TimerEvent: {}
+[6.884004] (-) TimerEvent: {}
+[6.985234] (-) TimerEvent: {}
+[7.086445] (-) TimerEvent: {}
+[7.187807] (-) TimerEvent: {}
+[7.289071] (-) TimerEvent: {}
+[7.390241] (-) TimerEvent: {}
+[7.491433] (-) TimerEvent: {}
+[7.592665] (-) TimerEvent: {}
+[7.693929] (-) TimerEvent: {}
+[7.795299] (-) TimerEvent: {}
+[7.896519] (-) TimerEvent: {}
+[7.997731] (-) TimerEvent: {}
+[8.098988] (-) TimerEvent: {}
+[8.200177] (-) TimerEvent: {}
+[8.301380] (-) TimerEvent: {}
+[8.402592] (-) TimerEvent: {}
+[8.503827] (-) TimerEvent: {}
+[8.605079] (-) TimerEvent: {}
+[8.706508] (-) TimerEvent: {}
+[8.808013] (-) TimerEvent: {}
+[8.909226] (-) TimerEvent: {}
+[8.992734] (arm_bot) StdoutLine: {'line': b'running egg_info\n'}
+[9.000277] (arm_bot) StdoutLine: {'line': b'writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO\n'}
+[9.002460] (arm_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt\n'}
+[9.004745] (arm_bot) StdoutLine: {'line': b'writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt\n'}
+[9.006275] (arm_bot) StdoutLine: {'line': b'writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt\n'}
+[9.007910] (arm_bot) StdoutLine: {'line': b'writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt\n'}
+[9.009394] (-) TimerEvent: {}
+[9.110507] (-) TimerEvent: {}
+[9.211653] (-) TimerEvent: {}
+[9.312874] (-) TimerEvent: {}
+[9.368381] (arm_bot) StdoutLine: {'line': b"reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[9.378368] (arm_bot) StdoutLine: {'line': b"writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[9.379967] (arm_bot) StdoutLine: {'line': b'running build\n'}
+[9.380976] (arm_bot) StdoutLine: {'line': b'running build_py\n'}
+[9.383407] (arm_bot) StdoutLine: {'line': b'copying arm_bot/sub_sensinfo.py -> /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot\n'}
+[9.389543] (arm_bot) StdoutLine: {'line': b'running install\n'}
+[9.396251] (arm_bot) StdoutLine: {'line': b'running install_lib\n'}
+[9.405947] (arm_bot) StdoutLine: {'line': b'copying /home/dog/ros2_ws/build/arm_bot/build/lib/arm_bot/sub_sensinfo.py -> /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot\n'}
+[9.413143] (-) TimerEvent: {}
+[9.414768] (arm_bot) StdoutLine: {'line': b'byte-compiling /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc\n'}
+[9.433095] (arm_bot) StdoutLine: {'line': b'running install_data\n'}
+[9.434634] (arm_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.448372] (arm_bot) StdoutLine: {'line': b"removing '/home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[9.451595] (arm_bot) StdoutLine: {'line': b'Copying ../../build/arm_bot/arm_bot.egg-info to /home/dog/ros2_ws/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info\n'}
+[9.461893] (arm_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[9.513400] (-) TimerEvent: {}
+[9.614034] (arm_bot) StdoutLine: {'line': b'Installing keyboard script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot\n'}
+[9.615237] (-) TimerEvent: {}
+[9.616459] (arm_bot) StdoutLine: {'line': b'Installing my_node script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot\n'}
+[9.617846] (arm_bot) StdoutLine: {'line': b'Installing sens_info script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot\n'}
+[9.619398] (arm_bot) StdoutLine: {'line': b'Installing sensors script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot\n'}
+[9.621320] (arm_bot) StdoutLine: {'line': b'Installing servoes script to /home/dog/ros2_ws/install/arm_bot/lib/arm_bot\n'}
+[9.626482] (arm_bot) StdoutLine: {'line': b"writing list of installed files to '/home/dog/ros2_ws/build/arm_bot/install.log'\n"}
+[9.715621] (-) TimerEvent: {}
+[9.817091] (-) TimerEvent: {}
+[9.838690] (arm_bot) CommandEnded: {'returncode': 0}
+[9.919787] (-) TimerEvent: {}
+[9.950785] (arm_bot) JobEnded: {'identifier': 'arm_bot', 'rc': 0}
+[9.956516] (-) EventReactorShutdown: {}

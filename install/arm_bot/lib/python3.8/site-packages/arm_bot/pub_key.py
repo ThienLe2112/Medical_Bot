@@ -14,8 +14,8 @@ class KeyPublisher(Node):
             "keyboard":{
                 "KEY_W": 0,
                 "KEY_S": 0,
-                "KEY_W": 0,
-                "KEY_W": 0
+                "KEY_A": 0,
+                "KEY_D": 0
             }
         }
     def timer_callback(self):

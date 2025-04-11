@@ -33,4 +33,10 @@ def generate_launch_description():
                 executable='sens_info',
                 name='Sensors_Read'
             ),
+            Node(
+                package='arm_bot',
+                namespace='Servoes',
+                executable='servoes',
+                name='Servoes'
+            ),
           ])

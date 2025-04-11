@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.012710] (arm_bot) JobQueued: {'identifier': 'arm_bot', 'dependencies': OrderedDict()}
+[0.015364] (arm_bot) JobStarted: {'identifier': 'arm_bot'}
+[0.090043] (-) TimerEvent: {}
+[0.191246] (-) TimerEvent: {}
+[0.292346] (-) TimerEvent: {}
+[0.393325] (-) TimerEvent: {}
+[0.494239] (-) TimerEvent: {}
+[0.595279] (-) TimerEvent: {}
+[0.696287] (-) TimerEvent: {}
+[0.797076] (-) TimerEvent: {}
+[0.897706] (-) TimerEvent: {}
+[0.998833] (-) TimerEvent: {}
+[1.099514] (-) TimerEvent: {}
+[1.200185] (-) TimerEvent: {}
+[1.301054] (-) TimerEvent: {}
+[1.402966] (-) TimerEvent: {}
+[1.504171] (-) TimerEvent: {}
+[1.604898] (-) TimerEvent: {}
+[1.705486] (-) TimerEvent: {}
+[1.806640] (-) TimerEvent: {}
+[1.907264] (-) TimerEvent: {}
+[2.008458] (-) TimerEvent: {}
+[2.109109] (-) TimerEvent: {}
+[2.210156] (-) TimerEvent: {}
+[2.311011] (-) TimerEvent: {}
+[2.412041] (-) TimerEvent: {}
+[2.513219] (-) TimerEvent: {}
+[2.613967] (-) TimerEvent: {}
+[2.714684] (-) TimerEvent: {}
+[2.815475] (-) TimerEvent: {}
+[2.916290] (-) TimerEvent: {}
+[3.016985] (-) TimerEvent: {}
+[3.117663] (-) TimerEvent: {}
+[3.218559] (-) TimerEvent: {}
+[3.319734] (-) TimerEvent: {}
+[3.420608] (-) TimerEvent: {}
+[3.521419] (-) TimerEvent: {}
+[3.622112] (-) TimerEvent: {}
+[3.722765] (-) TimerEvent: {}
+[3.823411] (-) TimerEvent: {}
+[3.924396] (-) TimerEvent: {}
+[4.025234] (-) TimerEvent: {}
+[4.125848] (-) TimerEvent: {}
+[4.226588] (-) TimerEvent: {}
+[4.327367] (-) TimerEvent: {}
+[4.428104] (-) TimerEvent: {}
+[4.528768] (-) TimerEvent: {}
+[4.629432] (-) TimerEvent: {}
+[4.730058] (-) TimerEvent: {}
+[4.830789] (-) TimerEvent: {}
+[4.931569] (-) TimerEvent: {}
+[5.032574] (-) TimerEvent: {}
+[5.133517] (-) TimerEvent: {}
+[5.234512] (-) TimerEvent: {}
+[5.335289] (-) TimerEvent: {}
+[5.435930] (-) TimerEvent: {}
+[5.536828] (-) TimerEvent: {}
+[5.637599] (-) TimerEvent: {}
+[5.738275] (-) TimerEvent: {}
+[5.838906] (-) TimerEvent: {}
+[5.939663] (-) TimerEvent: {}
+[6.040463] (-) TimerEvent: {}
+[6.141414] (-) TimerEvent: {}
+[6.242204] (-) TimerEvent: {}
+[6.342983] (-) TimerEvent: {}
+[6.444381] (-) TimerEvent: {}
+[6.545274] (-) TimerEvent: {}
+[6.645915] (-) TimerEvent: {}
+[6.746676] (-) TimerEvent: {}
+[6.847489] (-) TimerEvent: {}
+[6.948126] (-) TimerEvent: {}
+[7.048999] (-) TimerEvent: {}
+[7.149654] (-) TimerEvent: {}
+[7.250409] (-) TimerEvent: {}
+[7.351348] (-) TimerEvent: {}
+[7.452083] (-) TimerEvent: {}
+[7.553269] (-) TimerEvent: {}
+[7.654165] (-) TimerEvent: {}
+[7.754868] (-) TimerEvent: {}
+[7.855615] (-) TimerEvent: {}
+[7.956314] (-) TimerEvent: {}
+[8.056991] (-) TimerEvent: {}
+[8.158158] (-) TimerEvent: {}
+[8.258840] (-) TimerEvent: {}
+[8.359814] (-) TimerEvent: {}
+[8.460486] (-) TimerEvent: {}
+[8.561215] (-) TimerEvent: {}
+[8.663640] (-) TimerEvent: {}
+[8.765589] (-) TimerEvent: {}
+[8.866889] (-) TimerEvent: {}
+[14.410223] (-) TimerEvent: {}
+[14.510982] (-) TimerEvent: {}
+[14.611753] (-) TimerEvent: {}
+[14.712666] (-) TimerEvent: {}
+[14.813458] (-) TimerEvent: {}
+[14.914329] (-) TimerEvent: {}
+[15.022452] (-) TimerEvent: {}
+[15.124360] (-) TimerEvent: {}
+[15.227847] (-) TimerEvent: {}
+[15.328538] (-) TimerEvent: {}
+[15.429609] (-) TimerEvent: {}
+[15.531303] (-) TimerEvent: {}
+[15.632871] (-) TimerEvent: {}
+[15.734568] (-) TimerEvent: {}
+[15.835773] (-) TimerEvent: {}
+[15.937581] (-) TimerEvent: {}
+[16.038529] (-) TimerEvent: {}
+[16.139763] (-) TimerEvent: {}
+[16.241810] (-) TimerEvent: {}
+[16.348546] (-) TimerEvent: {}
+[16.449524] (-) TimerEvent: {}
+[16.551217] (-) TimerEvent: {}
+[16.653440] (-) TimerEvent: {}
+[16.754719] (-) TimerEvent: {}
+[16.856085] (-) TimerEvent: {}
+[16.956908] (-) TimerEvent: {}
+[17.057665] (-) TimerEvent: {}
+[17.158405] (-) TimerEvent: {}
+[17.259074] (-) TimerEvent: {}
+[17.359869] (-) TimerEvent: {}
+[17.461054] (-) TimerEvent: {}
+[17.565018] (-) TimerEvent: {}
+[17.667125] (-) TimerEvent: {}
+[17.771382] (-) TimerEvent: {}
+[17.872529] (-) TimerEvent: {}
+[17.974098] (-) TimerEvent: {}
+[18.076298] (-) TimerEvent: {}
+[18.177639] (-) TimerEvent: {}
+[18.278573] (-) TimerEvent: {}
+[18.379429] (-) TimerEvent: {}
+[18.480410] (-) TimerEvent: {}
+[18.582472] (-) TimerEvent: {}
+[18.684777] (-) TimerEvent: {}
+[18.785498] (-) TimerEvent: {}
+[18.886205] (-) TimerEvent: {}
+[18.986984] (-) TimerEvent: {}
+[19.088436] (-) TimerEvent: {}
+[19.189441] (-) TimerEvent: {}
+[19.290198] (-) TimerEvent: {}
+[19.391585] (-) TimerEvent: {}
+[19.492925] (-) TimerEvent: {}
+[19.594330] (-) TimerEvent: {}
+[19.696054] (-) TimerEvent: {}
+[19.797647] (-) TimerEvent: {}
+[19.898695] (-) TimerEvent: {}
+[20.001737] (-) TimerEvent: {}
+[20.112504] (-) TimerEvent: {}
+[20.213926] (-) TimerEvent: {}
+[20.316351] (-) TimerEvent: {}
+[20.417152] (-) TimerEvent: {}
+[20.518785] (-) TimerEvent: {}
+[20.620333] (-) TimerEvent: {}
+[20.722643] (-) TimerEvent: {}
+[20.825358] (-) TimerEvent: {}
+[20.927720] (-) TimerEvent: {}
+[21.029388] (-) TimerEvent: {}
+[21.130337] (-) TimerEvent: {}
+[21.231225] (-) TimerEvent: {}
+[21.338543] (-) TimerEvent: {}
+[21.439360] (-) TimerEvent: {}
+[21.540467] (-) TimerEvent: {}
+[21.641644] (-) TimerEvent: {}
+[21.742373] (-) TimerEvent: {}
+[21.844645] (-) TimerEvent: {}
+[21.946958] (-) TimerEvent: {}
+[22.047922] (-) TimerEvent: {}
+[22.149274] (-) TimerEvent: {}
+[22.250976] (-) TimerEvent: {}
+[22.353105] (-) TimerEvent: {}
+[22.455881] (-) TimerEvent: {}
+[22.557608] (-) TimerEvent: {}
+[22.658657] (-) TimerEvent: {}
+[22.763284] (-) TimerEvent: {}
+[22.863978] (-) TimerEvent: {}
+[22.965031] (-) TimerEvent: {}
+[23.066748] (-) TimerEvent: {}
+[23.167570] (-) TimerEvent: {}
+[23.269223] (-) TimerEvent: {}
+[23.370728] (-) TimerEvent: {}
+[23.471617] (-) TimerEvent: {}
+[23.572988] (-) TimerEvent: {}
+[23.673768] (-) TimerEvent: {}
+[23.774563] (-) TimerEvent: {}
+[23.876203] (-) TimerEvent: {}
+[23.977160] (-) TimerEvent: {}
+[24.077854] (-) TimerEvent: {}
+[24.179488] (-) TimerEvent: {}
+[24.281557] (-) TimerEvent: {}
+[24.382338] (-) TimerEvent: {}
+[24.483021] (-) TimerEvent: {}
+[24.585203] (-) TimerEvent: {}
+[24.686947] (-) TimerEvent: {}
+[24.787734] (-) TimerEvent: {}
+[24.889503] (-) TimerEvent: {}
+[24.991208] (-) TimerEvent: {}
+[25.093237] (-) TimerEvent: {}
+[25.195909] (-) TimerEvent: {}
+[25.296925] (-) TimerEvent: {}
+[25.398257] (-) TimerEvent: {}
+[25.499657] (-) TimerEvent: {}
+[25.600456] (-) TimerEvent: {}
+[25.702806] (-) TimerEvent: {}
+[25.806064] (-) TimerEvent: {}
+[25.907014] (-) TimerEvent: {}
+[26.008174] (-) TimerEvent: {}
+[26.109587] (-) TimerEvent: {}
+[26.210381] (-) TimerEvent: {}
+[26.311227] (-) TimerEvent: {}
+[26.412022] (-) TimerEvent: {}
+[26.513331] (-) TimerEvent: {}
+[26.614755] (-) TimerEvent: {}
+[26.715946] (-) TimerEvent: {}
+[26.817249] (-) TimerEvent: {}
+[26.918454] (-) TimerEvent: {}
+[27.020633] (-) TimerEvent: {}
+[27.117415] (arm_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_bot', 'build', '--build-base', '/home/jetson/Desktop/ros2_ws1/build/arm_bot/build', 'install', '--record', '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log', '--install-scripts', '$base/lib/arm_bot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Desktop/ros2_ws1/src/arm_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.7.189 51626 22', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/Desktop', 'SSH_TTY': '/dev/pts/2', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'nl_NL.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/ros2_ws1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420923022325', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '18', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'ROS_DOMAIN_ID': '48', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/ros2_ws1/install/arm_bot:/home/jetson/Desktop/ros2_ws1/install/ARM_BOT:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/Desktop/ros2_ws1/build/arm_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.7.189 51626 192.168.7.157 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:/home/jetson/Desktop/ros2_ws1/install/ARM_BOT/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[27.135163] (-) TimerEvent: {}
+[27.236012] (-) TimerEvent: {}
+[27.337680] (-) TimerEvent: {}
+[27.438870] (-) TimerEvent: {}
+[27.539949] (-) TimerEvent: {}
+[27.641607] (-) TimerEvent: {}
+[27.743301] (-) TimerEvent: {}
+[27.844166] (-) TimerEvent: {}
+[27.944903] (-) TimerEvent: {}
+[28.045787] (-) TimerEvent: {}
+[28.146877] (-) TimerEvent: {}
+[28.247799] (-) TimerEvent: {}
+[28.348501] (-) TimerEvent: {}
+[28.451075] (-) TimerEvent: {}
+[28.551975] (-) TimerEvent: {}
+[28.652837] (-) TimerEvent: {}
+[28.754780] (-) TimerEvent: {}
+[28.838671] (arm_bot) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[28.839605] (arm_bot) StderrLine: {'line': b'  warnings.warn(\n'}
+[28.854965] (-) TimerEvent: {}
+[28.956457] (-) TimerEvent: {}
+[29.028556] (arm_bot) StdoutLine: {'line': b'running egg_info\n'}
+[29.031515] (arm_bot) StdoutLine: {'line': b'writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO\n'}
+[29.035555] (arm_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt\n'}
+[29.037097] (arm_bot) StdoutLine: {'line': b'writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt\n'}
+[29.038017] (arm_bot) StdoutLine: {'line': b'writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt\n'}
+[29.039011] (arm_bot) StdoutLine: {'line': b'writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt\n'}
+[29.059494] (-) TimerEvent: {}
+[29.064637] (arm_bot) StdoutLine: {'line': b"reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[29.068786] (arm_bot) StdoutLine: {'line': b"writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[29.069639] (arm_bot) StdoutLine: {'line': b'running build\n'}
+[29.070378] (arm_bot) StdoutLine: {'line': b'running build_py\n'}
+[29.073624] (arm_bot) StdoutLine: {'line': b'copying arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot\n'}
+[29.076003] (arm_bot) StdoutLine: {'line': b'running install\n'}
+[29.081660] (arm_bot) StdoutLine: {'line': b'running install_lib\n'}
+[29.091153] (arm_bot) StdoutLine: {'line': b'copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot\n'}
+[29.098105] (arm_bot) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc\n'}
+[29.109017] (arm_bot) StdoutLine: {'line': b'running install_data\n'}
+[29.115985] (arm_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[29.117084] (arm_bot) StdoutLine: {'line': b"removing '/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[29.118956] (arm_bot) StdoutLine: {'line': b'Copying ../../build/arm_bot/arm_bot.egg-info to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info\n'}
+[29.125630] (arm_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[29.159675] (-) TimerEvent: {}
+[29.260918] (-) TimerEvent: {}
+[29.279894] (arm_bot) StdoutLine: {'line': b'Installing keyboard script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[29.282042] (arm_bot) StdoutLine: {'line': b'Installing my_node script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[29.282620] (arm_bot) StdoutLine: {'line': b'Installing sens_info script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[29.283139] (arm_bot) StdoutLine: {'line': b'Installing sensors script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[29.283656] (arm_bot) StdoutLine: {'line': b'Installing servoes script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[29.284102] (arm_bot) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log'\n"}
+[29.362729] (-) TimerEvent: {}
+[29.368122] (arm_bot) CommandEnded: {'returncode': 0}
+[29.478748] (-) TimerEvent: {}
+[29.593503] (-) TimerEvent: {}
+[29.619858] (arm_bot) JobEnded: {'identifier': 'arm_bot', 'rc': 0}
+[29.628181] (-) EventReactorShutdown: {}
