@@ -6,6 +6,7 @@ from arm_bot.mpu import mpu6050
 from arm_bot.load_cell import get_force
 import time
 import serial
+import paho.mqtt.client as mqtt
 
 
 class SensPublisher(Node):
@@ -47,8 +48,11 @@ class SensPublisher(Node):
             bytesize=serial.EIGHTBITS,
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
-            
         )
+        self.client=mqtt.Client("tbi1")
+        self.client.username_pw_set(username="thietbi01",password="thietbi01")
+        self.client.connect("192.168.7.189",1883,60)
+
     def timer_callback(self):
         # update MPU0's values:
         AX, AY, AZ, AR, AP, RR, RP, RY = self.MPU0.gyro_signals()
@@ -60,7 +64,7 @@ class SensPublisher(Node):
         #     print(data)
             if str(data) == "*" and self.start == 1:
                     self.start = 0
-                    self.grip=(float(self.lc))
+                    self.grip=3.36-(float(self.lc))
                     self.serial_port.flushInput()
                     self.lc = ''
             elif self.start == 1:
@@ -79,6 +83,20 @@ class SensPublisher(Node):
         msg = String()
 
         msg.data = json.dumps(self.sens)
+
+        msg_pub = {"mpu1": {"AR": AR,
+                            "AP": AP,
+                            "RY": RY}, 
+                    "mpu2": {"AR": AR1,
+                            "AP": AP1,
+                            "RY": RY1},
+                    "force": self.grip
+                            }
+        msg_pub = json.dumps(msg_pub).encode()
+        try:
+            self.client.publish("AllMPU",msg_pub)
+        except:
+            pass
         self.publisher_.publish(msg)
         self.get_logger().info('Sens\tSend: "%s"' % msg.data)
         # self.get_logger().info(f'{grip, self.start}')

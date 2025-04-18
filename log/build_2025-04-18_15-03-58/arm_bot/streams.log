@@ -1,0 +1,37 @@
+[3.203s] Invoking command in '/home/jetson/Desktop/ros2_ws1/src/arm_bot': PYTHONPATH=/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/jetson/Desktop/ros2_ws1/build/arm_bot/build install --record /home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data
+[4.309s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.310s]   warnings.warn(
+[4.438s] running egg_info
+[4.441s] writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO
+[4.442s] writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt
+[4.442s] writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt
+[4.443s] writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt
+[4.443s] writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt
+[4.456s] reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[4.461s] writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[4.461s] running build
+[4.462s] running build_py
+[4.462s] copying arm_bot/sub_sensinfo.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.464s] copying arm_bot/pub_sens.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.464s] copying arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot
+[4.467s] running install
+[4.469s] running install_lib
+[4.473s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_sensinfo.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.475s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/pub_sens.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.475s] copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_servoes.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[4.477s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc
+[4.484s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub_sens.py to pub_sens.cpython-38.pyc
+[4.487s] byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc
+[4.488s] Sorry: IndentationError: expected an indented block (sub_servoes.py, line 99)
+[4.489s] running install_data
+[4.489s] running install_egg_info
+[4.497s] removing '/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)
+[4.498s] Copying ../../build/arm_bot/arm_bot.egg-info to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info
+[4.501s] running install_scripts
+[4.571s] Installing keyboard script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.572s] Installing my_node script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.573s] Installing sens_info script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.573s] Installing sensors script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.573s] Installing servoes script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot
+[4.574s] writing list of installed files to '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log'
+[4.680s] Invoked command in '/home/jetson/Desktop/ros2_ws1/src/arm_bot' returned '0': PYTHONPATH=/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/jetson/Desktop/ros2_ws1/build/arm_bot/build install --record /home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data

@@ -15,12 +15,12 @@ def generate_launch_description():
             #     executable='listener',
             #     name='NgheNhieu1'
             # ),
-			Node(
-                package='arm_bot',
-                namespace='SensorInfo',
-                executable='keyboard',
-                name='Keyboard'
-                  ),
+			# Node(
+            #     package='arm_bot',
+            #     namespace='SensorInfo',
+            #     executable='keyboard',
+            #     name='Keyboard'
+            #       ),
             Node(
                 package='arm_bot',
                 namespace='SensorInfo',
@@ -33,10 +33,10 @@ def generate_launch_description():
                 executable='sens_info',
                 name='Sensors_Read'
             ),
-            Node(
-                package='arm_bot',
-                namespace='Servoes',
-                executable='servoes',
-                name='Servoes'
-            ),
+            # Node(
+            #     package='arm_bot',
+            #     namespace='Servoes',
+            #     executable='servoes',
+            #     name='Servoes'
+            # ),
           ])
