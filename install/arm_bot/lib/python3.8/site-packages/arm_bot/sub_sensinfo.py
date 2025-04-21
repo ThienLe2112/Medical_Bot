@@ -158,8 +158,10 @@ def on_message(client,userdata,message):
     
 
 
-    if RY1 > 4 or RY1 < -4:
-        control["P0"] += RY1*0.5
+    if RY1 > 4:
+        control["P0"] += RY1*0.3
+    if RY1 < -10:
+        control["P0"] += RY1*0.3
     control["P1"] = 2500*(-AP+120)/(90 + 90)
     control["P3"] = 2500*(-AP1*2+90)/(90 + 90)
     if control["P3"] < 0:
@@ -172,7 +174,7 @@ def on_message(client,userdata,message):
     control["P2"] = sorted((200, control["P2"], 2300))[1]
     control["P3"] = sorted((200, control["P3"], 1400))[1]
     control["P4"] = sorted((200, control["P4"],2300))[1]
-    control["P5"] = sorted((1500,control["P5"],2200))[1]
+    control["P5"] = sorted((1500,control["P5"],2000))[1]
 
 
     servoes["servor1"] = int(control["P0"])
