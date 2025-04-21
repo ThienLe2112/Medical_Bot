@@ -49,8 +49,8 @@ class SensPublisher(Node):
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
         )
-        self.client=mqtt.Client("tbi1")
-        self.client.username_pw_set(username="thietbi01",password="thietbi01")
+        self.client=mqtt.Client("tbi03")
+        self.client.username_pw_set(username="thietbi03",password="thietbi03")
         self.client.connect("192.168.7.189",1883,60)
 
     def timer_callback(self):
