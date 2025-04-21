@@ -159,7 +159,7 @@ def on_message(client,userdata,message):
 
 
     if RY1 > 4 or RY1 < -4:
-        control["P0"] += RY1
+        control["P0"] += RY1*0.5
     control["P1"] = 2500*(-AP+120)/(90 + 90)
     control["P3"] = 2500*(-AP1*2+90)/(90 + 90)
     if control["P3"] < 0:

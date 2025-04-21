@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000963] (arm_bot) JobQueued: {'identifier': 'arm_bot', 'dependencies': OrderedDict()}
+[0.001963] (arm_bot) JobStarted: {'identifier': 'arm_bot'}
+[0.099257] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.301241] (-) TimerEvent: {}
+[0.402450] (-) TimerEvent: {}
+[0.503372] (-) TimerEvent: {}
+[0.603995] (-) TimerEvent: {}
+[0.705402] (-) TimerEvent: {}
+[0.806624] (-) TimerEvent: {}
+[0.907763] (-) TimerEvent: {}
+[1.008937] (-) TimerEvent: {}
+[1.109866] (-) TimerEvent: {}
+[1.210460] (-) TimerEvent: {}
+[1.311075] (-) TimerEvent: {}
+[1.411893] (-) TimerEvent: {}
+[1.513142] (-) TimerEvent: {}
+[1.614350] (-) TimerEvent: {}
+[1.715063] (-) TimerEvent: {}
+[1.815666] (-) TimerEvent: {}
+[1.916269] (-) TimerEvent: {}
+[2.016920] (-) TimerEvent: {}
+[2.118157] (-) TimerEvent: {}
+[2.218751] (-) TimerEvent: {}
+[2.319865] (-) TimerEvent: {}
+[2.420498] (-) TimerEvent: {}
+[2.521158] (-) TimerEvent: {}
+[2.622161] (-) TimerEvent: {}
+[2.723079] (-) TimerEvent: {}
+[2.823840] (-) TimerEvent: {}
+[2.924748] (-) TimerEvent: {}
+[3.025843] (-) TimerEvent: {}
+[3.127203] (-) TimerEvent: {}
+[3.228468] (-) TimerEvent: {}
+[3.329161] (-) TimerEvent: {}
+[3.352127] (arm_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_bot', 'build', '--build-base', '/home/jetson/Desktop/ros2_ws1/build/arm_bot/build', 'install', '--record', '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log', '--install-scripts', '$base/lib/arm_bot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Desktop/ros2_ws1/src/arm_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.7.189 52339 22', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jetson/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'TERM_PROGRAM_VERSION': '1.81.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b65b4de3-9a0b-46f2-89c3-b1e5fd1ab4d9.sock', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'nl_NL.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/Desktop/ros2_ws1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420923022325', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/usr/local/cuda/bin:/home/jetson/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af2f57898d.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '48', 'AMENT_PREFIX_PATH': '/home/jetson/Desktop/ros2_ws1/install/arm_bot:/home/jetson/Desktop/ros2_ws1/install/ARM_BOT:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/Desktop/ros2_ws1/build/arm_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.7.189 52339 192.168.7.158 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Desktop/ros2_ws1/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages:/home/jetson/Desktop/ros2_ws1/install/ARM_BOT/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[3.429364] (-) TimerEvent: {}
+[3.530189] (-) TimerEvent: {}
+[3.631361] (-) TimerEvent: {}
+[3.732276] (-) TimerEvent: {}
+[3.833179] (-) TimerEvent: {}
+[3.934092] (-) TimerEvent: {}
+[4.034722] (-) TimerEvent: {}
+[4.135336] (-) TimerEvent: {}
+[4.236227] (-) TimerEvent: {}
+[4.336882] (-) TimerEvent: {}
+[4.437545] (-) TimerEvent: {}
+[4.538253] (-) TimerEvent: {}
+[4.615505] (arm_bot) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.616390] (arm_bot) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.638397] (-) TimerEvent: {}
+[4.739014] (-) TimerEvent: {}
+[4.766611] (arm_bot) StdoutLine: {'line': b'running egg_info\n'}
+[4.769672] (arm_bot) StdoutLine: {'line': b'writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO\n'}
+[4.771872] (arm_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt\n'}
+[4.775494] (arm_bot) StdoutLine: {'line': b'writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt\n'}
+[4.776746] (arm_bot) StdoutLine: {'line': b'writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt\n'}
+[4.777267] (arm_bot) StdoutLine: {'line': b'writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt\n'}
+[4.788776] (arm_bot) StdoutLine: {'line': b"reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[4.793226] (arm_bot) StdoutLine: {'line': b"writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[4.793984] (arm_bot) StdoutLine: {'line': b'running build\n'}
+[4.794422] (arm_bot) StdoutLine: {'line': b'running build_py\n'}
+[4.797970] (arm_bot) StdoutLine: {'line': b'running install\n'}
+[4.801463] (arm_bot) StdoutLine: {'line': b'running install_lib\n'}
+[4.805582] (arm_bot) StdoutLine: {'line': b'copying /home/jetson/Desktop/ros2_ws1/build/arm_bot/build/lib/arm_bot/sub_sensinfo.py -> /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot\n'}
+[4.809293] (arm_bot) StdoutLine: {'line': b'byte-compiling /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc\n'}
+[4.817551] (arm_bot) StdoutLine: {'line': b'running install_data\n'}
+[4.818369] (arm_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.826745] (arm_bot) StdoutLine: {'line': b"removing '/home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[4.828009] (arm_bot) StdoutLine: {'line': b'Copying ../../build/arm_bot/arm_bot.egg-info to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info\n'}
+[4.832771] (arm_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.839169] (-) TimerEvent: {}
+[4.916283] (arm_bot) StdoutLine: {'line': b'Installing sens_info script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[4.918124] (arm_bot) StdoutLine: {'line': b'Installing sensors script to /home/jetson/Desktop/ros2_ws1/install/arm_bot/lib/arm_bot\n'}
+[4.920623] (arm_bot) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Desktop/ros2_ws1/build/arm_bot/install.log'\n"}
+[4.939352] (-) TimerEvent: {}
+[5.028555] (arm_bot) CommandEnded: {'returncode': 0}
+[5.040083] (-) TimerEvent: {}
+[5.076615] (arm_bot) JobEnded: {'identifier': 'arm_bot', 'rc': 0}
+[5.079656] (-) EventReactorShutdown: {}
