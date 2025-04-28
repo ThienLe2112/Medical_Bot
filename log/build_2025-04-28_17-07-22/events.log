@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001626] (arm_bot) JobQueued: {'identifier': 'arm_bot', 'dependencies': OrderedDict()}
+[0.003009] (arm_bot) JobStarted: {'identifier': 'arm_bot'}
+[0.098750] (-) TimerEvent: {}
+[0.202583] (-) TimerEvent: {}
+[0.306393] (-) TimerEvent: {}
+[0.409916] (-) TimerEvent: {}
+[0.510974] (-) TimerEvent: {}
+[0.612904] (-) TimerEvent: {}
+[0.714902] (-) TimerEvent: {}
+[0.815822] (-) TimerEvent: {}
+[0.916727] (-) TimerEvent: {}
+[1.018823] (-) TimerEvent: {}
+[1.119889] (-) TimerEvent: {}
+[1.220784] (-) TimerEvent: {}
+[1.321696] (-) TimerEvent: {}
+[1.422708] (-) TimerEvent: {}
+[1.523683] (-) TimerEvent: {}
+[1.625073] (-) TimerEvent: {}
+[1.733971] (-) TimerEvent: {}
+[1.835489] (-) TimerEvent: {}
+[1.937350] (-) TimerEvent: {}
+[2.038288] (-) TimerEvent: {}
+[2.139267] (-) TimerEvent: {}
+[2.240123] (-) TimerEvent: {}
+[2.340873] (-) TimerEvent: {}
+[2.441782] (-) TimerEvent: {}
+[2.542689] (-) TimerEvent: {}
+[2.643533] (-) TimerEvent: {}
+[2.744448] (-) TimerEvent: {}
+[2.845399] (-) TimerEvent: {}
+[2.946219] (-) TimerEvent: {}
+[3.047230] (-) TimerEvent: {}
+[3.148102] (-) TimerEvent: {}
+[3.250796] (-) TimerEvent: {}
+[3.351783] (-) TimerEvent: {}
+[3.452669] (-) TimerEvent: {}
+[3.553636] (-) TimerEvent: {}
+[3.654633] (-) TimerEvent: {}
+[3.833303] (-) TimerEvent: {}
+[3.935249] (-) TimerEvent: {}
+[4.036243] (-) TimerEvent: {}
+[4.137333] (-) TimerEvent: {}
+[4.238315] (-) TimerEvent: {}
+[4.339373] (-) TimerEvent: {}
+[4.441020] (-) TimerEvent: {}
+[4.542111] (-) TimerEvent: {}
+[4.643124] (-) TimerEvent: {}
+[4.743999] (-) TimerEvent: {}
+[4.844963] (-) TimerEvent: {}
+[4.945879] (-) TimerEvent: {}
+[5.047180] (-) TimerEvent: {}
+[5.148104] (-) TimerEvent: {}
+[5.248973] (-) TimerEvent: {}
+[5.349846] (-) TimerEvent: {}
+[5.450861] (-) TimerEvent: {}
+[5.551849] (-) TimerEvent: {}
+[5.652773] (-) TimerEvent: {}
+[5.753882] (-) TimerEvent: {}
+[5.792038] (arm_bot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arm_bot', 'build', '--build-base', '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build', 'install', '--record', '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/install.log', '--install-scripts', '$base/lib/arm_bot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/xavier/Desktop/medical/Medical_Bot/src/arm_bot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'xavier', 'SSH_CLIENT': '192.168.7.105 60404 22', 'LC_TIME': 'vi_VN', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/xavier/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/xavier/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/xavier', 'OLDPWD': '/home/xavier/Desktop/medical', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-49547c82-8d94-406a-bea4-e83259e5c0e4.sock', 'JETSON_L4T': '35.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/xavier/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'vi_VN', 'VSCODE_GIT_ASKPASS_NODE': '/home/xavier/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/xavier/Desktop/medical/Medical_Bot/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'xavier', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/xavier/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/xavier/.local/bin:/opt/ros/foxy/bin:/home/xavier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xavier/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'LC_ADDRESS': 'vi_VN', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'vi_VN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-24af9a835a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot:/home/xavier/Desktop/medical/Medical_Bot/install/ARM_BOT:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'vi_VN', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'vi_VN', 'LC_IDENTIFICATION': 'vi_VN', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.7.105 60404 192.168.7.150 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages:/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages:/home/xavier/Desktop/medical/Medical_Bot/install/ARM_BOT/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/lib/python3.8/dist-packages/:/usr/lib/python3.8/dist-packages/:/usr/lib/python3.8/dist-packages/:/usr/lib/python3.8/dist-packages/', 'LC_NUMERIC': 'vi_VN', 'LC_PAPER': 'vi_VN', 'COLCON': '1', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[5.855106] (-) TimerEvent: {}
+[5.958312] (-) TimerEvent: {}
+[6.060448] (-) TimerEvent: {}
+[6.161648] (-) TimerEvent: {}
+[6.262699] (-) TimerEvent: {}
+[6.363617] (-) TimerEvent: {}
+[6.464501] (-) TimerEvent: {}
+[6.565441] (-) TimerEvent: {}
+[6.605131] (arm_bot) StderrLine: {'line': b'/home/xavier/.local/lib/python3.8/site-packages/setuptools/dist.py:452: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.607438] (arm_bot) StderrLine: {'line': b'!!\n'}
+[6.607977] (arm_bot) StderrLine: {'line': b'\n'}
+[6.608602] (arm_bot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.609098] (arm_bot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.609993] (arm_bot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.611013] (arm_bot) StderrLine: {'line': b'\n'}
+[6.611496] (arm_bot) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[6.612262] (arm_bot) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[6.612731] (arm_bot) StderrLine: {'line': b'\n'}
+[6.613221] (arm_bot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.613651] (arm_bot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.614078] (arm_bot) StderrLine: {'line': b'\n'}
+[6.615145] (arm_bot) StderrLine: {'line': b'!!\n'}
+[6.615582] (arm_bot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.665671] (-) TimerEvent: {}
+[6.712367] (arm_bot) StderrLine: {'line': b"/home/xavier/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.713128] (arm_bot) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.765932] (-) TimerEvent: {}
+[6.866930] (-) TimerEvent: {}
+[6.967877] (-) TimerEvent: {}
+[7.068831] (-) TimerEvent: {}
+[7.169741] (-) TimerEvent: {}
+[7.270812] (-) TimerEvent: {}
+[7.372090] (arm_bot) StdoutLine: {'line': b'running egg_info\n'}
+[7.373255] (-) TimerEvent: {}
+[7.473517] (arm_bot) StdoutLine: {'line': b'writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO\n'}
+[7.474479] (-) TimerEvent: {}
+[7.476432] (arm_bot) StdoutLine: {'line': b'writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt\n'}
+[7.477870] (arm_bot) StdoutLine: {'line': b'writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt\n'}
+[7.479632] (arm_bot) StdoutLine: {'line': b'writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt\n'}
+[7.483764] (arm_bot) StdoutLine: {'line': b'writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt\n'}
+[7.574706] (-) TimerEvent: {}
+[7.675637] (-) TimerEvent: {}
+[7.776540] (-) TimerEvent: {}
+[7.877371] (-) TimerEvent: {}
+[7.978232] (-) TimerEvent: {}
+[8.079376] (-) TimerEvent: {}
+[8.180316] (-) TimerEvent: {}
+[8.247018] (arm_bot) StdoutLine: {'line': b"reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[8.255939] (arm_bot) StdoutLine: {'line': b"writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'\n"}
+[8.257094] (arm_bot) StdoutLine: {'line': b'running build\n'}
+[8.257943] (arm_bot) StdoutLine: {'line': b'running build_py\n'}
+[8.259575] (arm_bot) StdoutLine: {'line': b'copying arm_bot/pub_sens.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.260858] (arm_bot) StdoutLine: {'line': b'copying arm_bot/sub_servoes.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.262032] (arm_bot) StdoutLine: {'line': b'copying arm_bot/__init__.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.263113] (arm_bot) StdoutLine: {'line': b'copying arm_bot/sub_sensinfo.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.264301] (arm_bot) StdoutLine: {'line': b'copying arm_bot/my_node.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.265415] (arm_bot) StdoutLine: {'line': b'copying arm_bot/pub_key.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.266482] (arm_bot) StdoutLine: {'line': b'copying arm_bot/sub.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.267747] (arm_bot) StdoutLine: {'line': b'copying arm_bot/load_cell.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.268886] (arm_bot) StdoutLine: {'line': b'copying arm_bot/pub.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.271541] (arm_bot) StdoutLine: {'line': b'copying arm_bot/mpu.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.272216] (arm_bot) StdoutLine: {'line': b'copying arm_bot/arm.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot\n'}
+[8.273675] (arm_bot) StdoutLine: {'line': b'running install\n'}
+[8.280577] (-) TimerEvent: {}
+[8.307407] (arm_bot) StdoutLine: {'line': b'running install_lib\n'}
+[8.380750] (-) TimerEvent: {}
+[8.416625] (arm_bot) StdoutLine: {'line': b'byte-compiling /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc\n'}
+[8.422258] (arm_bot) StdoutLine: {'line': b'byte-compiling /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc\n'}
+[8.432113] (arm_bot) StdoutLine: {'line': b'running install_data\n'}
+[8.434716] (arm_bot) StdoutLine: {'line': b'copying resource/arm_bot -> /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/share/ament_index/resource_index/packages\n'}
+[8.436546] (arm_bot) StdoutLine: {'line': b'copying package.xml -> /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/share/arm_bot\n'}
+[8.437514] (arm_bot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.481048] (-) TimerEvent: {}
+[8.543531] (arm_bot) StdoutLine: {'line': b"removing '/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)\n"}
+[8.545269] (arm_bot) StdoutLine: {'line': b'Copying ../../build/arm_bot/arm_bot.egg-info to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info\n'}
+[8.551361] (arm_bot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.581213] (-) TimerEvent: {}
+[8.681997] (-) TimerEvent: {}
+[8.804494] (arm_bot) StdoutLine: {'line': b'Installing sens_info script to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/arm_bot\n'}
+[8.808208] (-) TimerEvent: {}
+[8.809528] (arm_bot) StdoutLine: {'line': b'Installing sensors script to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/arm_bot\n'}
+[8.812764] (arm_bot) StdoutLine: {'line': b"writing list of installed files to '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/install.log'\n"}
+[8.908434] (-) TimerEvent: {}
+[8.917278] (arm_bot) CommandEnded: {'returncode': 0}
+[9.008683] (-) TimerEvent: {}
+[9.109709] (-) TimerEvent: {}
+[9.210742] (-) TimerEvent: {}
+[9.311614] (-) TimerEvent: {}
+[9.391873] (arm_bot) JobEnded: {'identifier': 'arm_bot', 'rc': 0}
+[9.397125] (-) EventReactorShutdown: {}

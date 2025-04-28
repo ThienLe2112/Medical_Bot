@@ -1,0 +1,54 @@
+[4.374s] Invoking command in '/home/xavier/Desktop/medical/Medical_Bot/src/arm_bot': PYTHONPATH=/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build install --record /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data
+[5.094s] /home/xavier/.local/lib/python3.8/site-packages/setuptools/dist.py:452: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.094s] !!
+[5.095s] 
+[5.095s]         ********************************************************************************
+[5.096s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.096s]         versions. Please use the underscore name 'script_dir' instead.
+[5.097s] 
+[5.097s]         This deprecation is overdue, please update your project and remove deprecated
+[5.098s]         calls to avoid build errors in the future.
+[5.098s] 
+[5.098s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.099s]         ********************************************************************************
+[5.099s] 
+[5.100s] !!
+[5.100s]   opt = self.warn_dash_deprecation(opt, section)
+[5.190s] /home/xavier/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.191s]   warnings.warn(msg)
+[5.786s] running egg_info
+[5.883s] writing ../../build/arm_bot/arm_bot.egg-info/PKG-INFO
+[5.885s] writing dependency_links to ../../build/arm_bot/arm_bot.egg-info/dependency_links.txt
+[5.887s] writing entry points to ../../build/arm_bot/arm_bot.egg-info/entry_points.txt
+[5.894s] writing requirements to ../../build/arm_bot/arm_bot.egg-info/requires.txt
+[5.896s] writing top-level names to ../../build/arm_bot/arm_bot.egg-info/top_level.txt
+[6.634s] reading manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[6.643s] writing manifest file '../../build/arm_bot/arm_bot.egg-info/SOURCES.txt'
+[6.644s] running build
+[6.645s] running build_py
+[6.648s] copying arm_bot/sub_servoes.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.649s] copying arm_bot/__init__.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.650s] copying arm_bot/my_node.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.652s] copying arm_bot/pub_key.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.653s] copying arm_bot/sub.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.654s] copying arm_bot/load_cell.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.655s] copying arm_bot/pub.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.656s] copying arm_bot/mpu.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.657s] copying arm_bot/arm.py -> /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot
+[6.660s] running install
+[6.689s] running install_lib
+[6.796s] copying /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build/lib/arm_bot/sub_servoes.py -> /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot
+[6.802s] byte-compiling /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot/pub_sens.py to pub_sens.cpython-38.pyc
+[6.807s] byte-compiling /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_servoes.py to sub_servoes.cpython-38.pyc
+[6.817s] byte-compiling /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot/sub_sensinfo.py to sub_sensinfo.cpython-38.pyc
+[6.827s] running install_data
+[6.829s] copying resource/arm_bot -> /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/share/ament_index/resource_index/packages
+[6.830s] copying package.xml -> /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/share/arm_bot
+[6.831s] running install_egg_info
+[6.936s] removing '/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info' (and everything under it)
+[6.937s] Copying ../../build/arm_bot/arm_bot.egg-info to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages/arm_bot-0.0.1-py3.8.egg-info
+[6.943s] running install_scripts
+[7.170s] Installing sens_info script to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/arm_bot
+[7.172s] Installing sensors script to /home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/arm_bot
+[7.177s] writing list of installed files to '/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/install.log'
+[7.300s] Invoked command in '/home/xavier/Desktop/medical/Medical_Bot/src/arm_bot' returned '0': PYTHONPATH=/home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/xavier/Desktop/medical/Medical_Bot/install/arm_bot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_bot build --build-base /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/build install --record /home/xavier/Desktop/medical/Medical_Bot/build/arm_bot/install.log --install-scripts $base/lib/arm_bot --single-version-externally-managed install_data

@@ -37,8 +37,8 @@ class ServoSubscriber(Node):
         
         
         self.client=mqtt.Client("Servores")
-        self.client.username_pw_set(username="thietbi01",password="thietbi01")
-        self.client.connect("192.168.7.189",1883,60)
+        self.client.username_pw_set(username="servors",password="servors")
+        self.client.connect("192.168.7.105",1883,60)
 
     def listener_callback(self, msg):
         control = json.loads(msg.data)
@@ -57,7 +57,7 @@ class ServoSubscriber(Node):
                     "servor5":  P4,
                     "servor6":  P5}
         msg = json.dumps(data_url).encode()
-        self.client.publish("AllServor",msg)
+        self.client.publish("AllServors",msg)
 
 # output_quene = Queue(2)
 def on_message(client,userdata,message):
@@ -77,7 +77,7 @@ def on_message(client,userdata,message):
     
 def on_connect(client, userdata,flags,rc):
     print("Connected with result code {}".format(rc))
-    client.subscribe('AllServor')
+    client.subscribe('AllServors')
     
 def on_disconnect(client,userdata,rc):
     print("Disconnected from Broker")
@@ -88,8 +88,8 @@ def mqtt_subscribe():
     client.on_connect=on_connect
     client.on_disconnect=on_disconnect
     client.on_message=on_message
-    client.username_pw_set(username='thietbi01',password='thietbi01')
-    client.connect("192.168.7.189",1883,60)
+    client.username_pw_set(username='servors',password='servors')
+    client.connect("192.168.7.105",1883,60)
     client.loop_forever()
 
 def main(args=None):

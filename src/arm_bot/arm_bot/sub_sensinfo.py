@@ -204,7 +204,7 @@ def on_disconnect(client,userdata,rc):
     # client.on_disconnect=on_disconnect
     # client.on_message=on_message
     # client.username_pw_set(username='thietbi02',password='thietbi02')
-    # client.connect("192.168.7.189",1883,60)
+    # client.connect("192.168.7.105",1883,60)
     # client.loop_forever()
 
 executor = ThreadPoolExecutor(max_workers=2)
@@ -216,7 +216,7 @@ def main(args=None):
     client.on_disconnect=on_disconnect
     client.on_message=on_message
     client.username_pw_set(username='thietbi02',password='thietbi02')
-    client.connect("192.168.7.189",1883,60)
+    client.connect("192.168.7.105",1883,60)
     client.loop_forever()
     # rclpy.init(args=args)
     # process = executor.submit(mqtt_subscribe)

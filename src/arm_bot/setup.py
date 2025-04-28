@@ -24,7 +24,7 @@ setup(
             # 'keyboard = arm_bot.pub_key:main',
             'sensors = arm_bot.pub_sens:main',
             'sens_info = arm_bot.sub_sensinfo:main',
-            # 'servoes = arm_bot.sub_servoes:main',
+            'servoes = arm_bot.sub_servoes:main',
 
             # 'talker = arm_bot.pub:main',
             # 'listener = arm_bot.sub:main',

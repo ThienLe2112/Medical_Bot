@@ -51,7 +51,7 @@ class SensPublisher(Node):
         )
         self.client=mqtt.Client("tbi03")
         self.client.username_pw_set(username="thietbi03",password="thietbi03")
-        self.client.connect("192.168.7.189",1883,60)
+        self.client.connect("192.168.7.105",1883,60)
 
     def timer_callback(self):
         # update MPU0's values:
