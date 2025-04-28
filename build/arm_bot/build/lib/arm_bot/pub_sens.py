@@ -49,8 +49,8 @@ class SensPublisher(Node):
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
         )
-        self.client=mqtt.Client("tbi03")
-        self.client.username_pw_set(username="thietbi03",password="thietbi03")
+        self.client=mqtt.Client("sensors2")
+        self.client.username_pw_set(username="sensors",password="sensors")
         self.client.connect("192.168.7.105",1883,60)
 
     def timer_callback(self):
@@ -94,7 +94,7 @@ class SensPublisher(Node):
                             }
         msg_pub = json.dumps(msg_pub).encode()
         try:
-            self.client.publish("AllMPU",msg_pub)
+            self.client.publish("AllSensors",msg_pub)
         except:
             pass
         self.publisher_.publish(msg)

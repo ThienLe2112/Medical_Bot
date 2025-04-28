@@ -1,8 +1,12 @@
 Metadata-Version: 2.1
-Name: arm_bot
+Name: arm-bot
 Version: 0.0.1
 Summary: TODO: Implement Surgical Robot
+Home-page: UNKNOWN
 Maintainer: ThienLC
 Maintainer-email: helu@helu.helu
 License: Apache-2.0
-Requires-Dist: setuptools
+Platform: UNKNOWN
+
+UNKNOWN
+

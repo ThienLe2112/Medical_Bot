@@ -186,13 +186,13 @@ def on_message(client,userdata,message):
 
     msg = String()
     msg_data = json.dumps(servoes).encode()
-    client.publish("AllServor",msg_data)
+    client.publish("AllServors",msg_data)
     # fields = output_quene.get()
     # print(fields)
 
 def on_connect(client, userdata,flags,rc):
     print("Connected with result code {}".format(rc))
-    client.subscribe('AllMPU')
+    client.subscribe('AllSensors')
     
 def on_disconnect(client,userdata,rc):
     print("Disconnected from Broker")
@@ -211,11 +211,11 @@ executor = ThreadPoolExecutor(max_workers=2)
 
 def main(args=None):
     # client_id='tbi1'
-    client =mqtt.Client('tb2')
+    client =mqtt.Client('control2')
     client.on_connect=on_connect
     client.on_disconnect=on_disconnect
     client.on_message=on_message
-    client.username_pw_set(username='thietbi02',password='thietbi02')
+    client.username_pw_set(username='control',password='control')
     client.connect("192.168.7.105",1883,60)
     client.loop_forever()
     # rclpy.init(args=args)
